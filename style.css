@@ -1,0 +1,23 @@
+body{
+    background-color: maroon;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    /* background-color: azure; */
+    border-collapse: collapse;
+}
+#tab2 {
+    background-color: green;
+
+}
+tr:nth-child(2n){
+    background-color: orange;
+}
+tr:nth-child(2n+1){
+    background-color:white
+}tr:hover{
+    background-color: burlywood;
+}
